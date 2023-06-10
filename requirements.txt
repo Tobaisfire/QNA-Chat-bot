@@ -1,0 +1,8 @@
+langchain
+cohere 
+dataset 
+pinecone-client 
+langchain 
+datasets 
+openai
+torch
