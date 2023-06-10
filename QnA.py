@@ -7,8 +7,8 @@ import cohere
 from langchain.chains.question_answering import load_qa_chain
 
 from langchain.chains import RetrievalQA
-co_embeddings =CohereEmbeddings(cohere_api_key='PoQqB6c283yGmex4A2cSwQWxYj5oP1rh9bkuqKYy',model= "multilingual-22-12")
-co = cohere.Client("PoQqB6c283yGmex4A2cSwQWxYj5oP1rh9bkuqKYy")
+co_embeddings =CohereEmbeddings(cohere_api_key='api-key',model= "multilingual-22-12")
+co = cohere.Client("your-apikey")
 
 import pinecone
 
@@ -16,7 +16,7 @@ import pinecone
 
 def qa(q,num=1):
     print(num)
-    pinecone.init(api_key="f6e73bf8-43dc-4ce4-b29b-19430caa8543", environment="us-west4-gcp-free")
+    pinecone.init(api_key="api-key", environment="us-west4-gcp-free")
     index_table_name = 'chat-qa-wikipedia'
 
     index = pinecone.Index(index_table_name)
@@ -39,7 +39,7 @@ def qa(q,num=1):
 
 def chatqa(q):
     llm = ChatOpenAI(
-    openai_api_key='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',
+    openai_api_key='api-key',
     model_name='gpt-3.5-turbo',
     temperature=0.0
         ) 
