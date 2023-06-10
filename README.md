@@ -15,12 +15,13 @@ The repository is organized as follows:
 - `requirements.txt`: Lists the necessary dependencies and packages required to run the project.
 - `LICENSE`: Specifies the license information for the project.
 - `README.md`: Provides essential information about the project, including setup instructions, usage guidelines, and additional resources.
-- 
 ## Preview:
 
 ![image](https://github.com/Tobaisfire/LLM-Chat-bot/assets/67000746/84569945-5bb1-47b0-851e-fd9911a89890)
 
+## Link to Model:
 
+https://huggingface.co/spaces/TobiasFire/M2del-Deck
 
 ## Getting Started:
 To get started with the project, please follow the instructions provided in the `README.md` file. It includes detailed steps for installation, setup, and usage of the chatbot. Make sure to review the documentation and example code snippets in the `docs/` and `examples/` directories, respectively, to gain a better understanding of the project's capabilities and usage scenarios.
