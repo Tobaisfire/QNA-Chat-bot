@@ -1,6 +1,6 @@
 import gradio as gr
 from QnA import *
-# from diffusers import StableDiffusionPipeline
+
 import torch
 import gradio as gr
 
