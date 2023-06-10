@@ -11,13 +11,16 @@ This repository contains a comprehensive implementation of an advanced chatbot u
 
 ## Repository Structure:
 The repository is organized as follows:
-
+- `langchain`: Implements the Langchain framework for converting questions to embeddings using Cohere.
+- `pincone`: Handles the integration with Pincone Vector Database for storing and retrieving embeddings.
+- `semantic_search`: Implements semantic search and QA retrieval using Langchain and Pincone.
+- `llm_gpt_3_5_turbo`: Utilizes the OpenAI Large Language Model (LLM) GPT-3.5 Turbo to generate context-based answers.
 - `requirements.txt`: Lists the necessary dependencies and packages required to run the project.
 - `LICENSE`: Specifies the license information for the project.
 - `README.md`: Provides essential information about the project, including setup instructions, usage guidelines, and additional resources.
 ## Preview:
 
-![image](https://github.com/Tobaisfire/LLM-Chat-bot/assets/67000746/84569945-5bb1-47b0-851e-fd9911a89890)
+![output](https://github.com/Tobaisfire/LLM-Chat-bot/assets/67000746/84569945-5bb1-47b0-851e-fd9911a89890)
 
 ## Link to Model:
 
